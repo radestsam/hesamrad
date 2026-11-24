@@ -45,7 +45,7 @@ decisions:
       why: 'Every core test runs against local fake servers that I control. A test that depends on a real website fails whenever that website has a bad day, or the network in Iran does. Local test servers give the same result every time, on every machine.'
       cost: 'I had to build a fake DNS server, fake TLS servers, and fake HTTP servers that misbehave in exact ways. The test code is more than half the size of the program.'
     - choice: 'Open Source Under the MIT License'
-      why: 'A tool that inspects your network has to be one you can read. Anyone can [read the code on GitHub](https://github.com/hesamzakerirad/nwrk), check what nw sends, build it from source, and confirm that a release matches the code.'
+      why: 'A tool that inspects your network has to be one you can read. Anyone can [read the code on GitHub](https://github.com/radestsam/nwrk), check what nw sends, build it from source, and confirm that a release matches the code.'
       cost: 'It earns nothing, so every hour I spend on it is my own time.'
 comparison:
     heading: 'nw Compared With OONI Probe, mtr, and Globalping'

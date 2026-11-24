@@ -40,7 +40,7 @@
             'links' => [
                 ['label' => 'Email', 'href' => 'mailto:' . $page->email],
                 ['label' => 'LinkedIn', 'href' => 'https://linkedin.com/in/hesamrad', 'external' => true],
-                ['label' => 'GitHub', 'href' => 'https://github.com/hesamzakerirad', 'external' => true],
+                ['label' => 'GitHub', 'href' => 'https://github.com/radestsam', 'external' => true],
             ],
         ],
     ];
